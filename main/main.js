@@ -11,7 +11,7 @@ module.exports = function main(s) {
     	 resultArray[2]="";
     	 for(var i=0;i<inArray.length;i++){
 	    for(var j=0;j<3;j++){
-	    	resultArray[j]+=outArray[inArray[i]][j]+" ";
+	    	resultArray[j]+=outArray[inArray[i]][j];
 	    }      
     	 }
     	 var result=resultArray[0]+"\n"
