@@ -24,8 +24,8 @@ module.exports = function main(s) {
 function figure(){
     	 var outArray=new Array();
 	     outArray[0]=new Array();
-    	     outArray[0][0]=". _ .";
-    	     outArray[0][1]="|. |";
+    	     outArray[0][0]="._.";
+    	     outArray[0][1]="|.|";
     	     outArray[0][2]="|_|";
 	     outArray[1]=new Array();
     	     outArray[1][0]="...";
@@ -40,11 +40,11 @@ function figure(){
     	     outArray[3][1]="._|";
     	     outArray[3][2]="._|";
     	 outArray[4]=new Array();
-    	     outArray[4][0]=" .. .";
+    	     outArray[4][0]="...";
     	     outArray[4][1]="|_|";
-    	     outArray[4][2]=" .. |";
+    	     outArray[4][2]="..|";
     	 outArray[5]=new Array();
-    	     outArray[5][0]=". _.";
+    	     outArray[5][0]="._.";
     	     outArray[5][1]="|_.";
     	     outArray[5][2]="._|";
     	 outArray[6]=new Array();
@@ -52,16 +52,16 @@ function figure(){
     	     outArray[6][1]="|_.";
     	     outArray[6][2]="|_|";
     	 outArray[7]=new Array();
-    	     outArray[7][0]="._ .";
-    	     outArray[7][1]=".. |";
-    	     outArray[7][2]=".. |";
+    	     outArray[7][0]="._.";
+    	     outArray[7][1]="..|";
+    	     outArray[7][2]="..|";
     	 outArray[8]=new Array();
     	     outArray[8][0]="._ .";
     	     outArray[8][1]="|_|";
     	     outArray[8][2]="|_|";
     	 outArray[9]=new Array();
-    	     outArray[9][0]=". _ .";
+    	     outArray[9][0]="._.";
     	     outArray[9][1]="|_|";
-    	     outArray[9][2]=" . .|";
+    	     outArray[9][2]="..|";
     	 return outArray;
      }
