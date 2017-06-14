@@ -14,10 +14,11 @@ module.exports = function main(s) {
 	    	resultArray[j]+=outArray[inArray[i]][j];
 	    }      
     	 }
-    	 var result=resultArray[0]+"\n"
-             +resultArray[1]+"\n"
-             +resultArray[2];
-    	 return s;
+         resultArray[0]+="\n";
+    	 resultArray[1]+="\n";
+    	 resultArray[2]+="\n";
+    	 var result=resultArray[0]+resultArray[1]+resultArray[2];
+    	 return result;
      }
 
 function figure(){
