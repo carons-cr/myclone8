@@ -17,7 +17,7 @@ module.exports = function main(s) {
     	 var result=resultArray[0]+"\n"
              +resultArray[1]+"\n"
              +resultArray[2];
-    	 return result;
+    	 return s;
      }
 
 function figure(){
