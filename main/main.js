@@ -16,7 +16,6 @@
     	 }
          resultArray[0]+="\n";
     	 resultArray[1]+="\n";
-    	 resultArray[2]+="\n";
     	 var result=resultArray[0]+resultArray[1]+resultArray[2];
     	 return result;
      }
