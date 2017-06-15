@@ -1,7 +1,7 @@
 ﻿module.exports = function main(s) {
          var inArray=new Array();
     	 for(var i=0;i<s.length;i++){
-    		    inArray[i]=Integer.parseInt(s[i]);
+    		    inArray[i]=parseInt(s[i]);
     	 }
     	 var outArray=new Array();
     	 outArray=figure();
