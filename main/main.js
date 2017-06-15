@@ -1,4 +1,4 @@
-module.exports = function main(s) {
+﻿module.exports = function main(s) {
          var inArray=new Array();
     	 for(var i=0;i<s.length;i++){
     		    inArray[i]=s.charAt(i);
@@ -56,7 +56,7 @@ function figure(){
     	     outArray[7][1]="..|";
     	     outArray[7][2]="..|";
     	 outArray[8]=new Array();
-    	     outArray[8][0]="._ .";
+    	     outArray[8][0]="._.";
     	     outArray[8][1]="|_|";
     	     outArray[8][2]="|_|";
     	 outArray[9]=new Array();
