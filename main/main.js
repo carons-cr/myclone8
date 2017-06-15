@@ -1,4 +1,4 @@
-﻿module.exports = function main(s) {
+module.exports = function main(s) {
          var inArray=new Array();
     	 for(var i=0;i<s.length;i++){
     		    inArray[i]=s.charAt(i);
@@ -16,7 +16,7 @@
     	 }
          resultArray[0]+="\n";
     	 resultArray[1]+="\n";
-    	 var result=resultArray[0]+resultArray[1];
+    	 var result=resultArray[0]+resultArray[1]+resultArray[2];
     	 return result;
      }
 
