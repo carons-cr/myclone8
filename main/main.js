@@ -10,13 +10,13 @@
     	 resultArray[1]="";
     	 resultArray[2]="";
     	 for(var i=0;i<inArray.length;i++){
-	    for(var j=0;j<3;j++){
-	    	resultArray[j]+=outArray[inArray[i]][j]+" ";
-	    }      
+			for(var j=0;j<3;j++){
+				resultArray[j]+=outArray[inArray[i]][j]+" ";
+			}      
     	 }
          resultArray[0]+="\n";
     	 resultArray[1]+="\n";
-    	 var result=resultArray[0]+resultArray[1]+resultArray[2];
+    	 var result=resultArray[0]+resultArray[1];
     	 return result;
      }
 
